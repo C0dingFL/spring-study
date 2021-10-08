@@ -14,8 +14,7 @@ public class TestSpringDemo2 {
     public void test1(){
         ApplicationContext context = new ClassPathXmlApplicationContext("bean2.xml");
         Emp emp = context.getBean("emp", Emp.class);
-        System.out.println(emp);
-        System.out.println(emp);
+        emp.test();
         emp.test();
     }
 }

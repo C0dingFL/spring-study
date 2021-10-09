@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-demo-3</artifactId>
+    <artifactId>spring-demo-4</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -35,7 +35,5 @@
             <artifactId>com.springsource.org.aspectj.weaver</artifactId>
             <version>1.6.4.RELEASE</version>
         </dependency>
-
-
     </dependencies>
 </project>

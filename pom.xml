@@ -12,6 +12,7 @@
         <module>spring-demo-1</module>
         <module>spring-demo-2</module>
         <module>spring-demo-3</module>
+        <module>spring-demo-4</module>
     </modules>
 
 
@@ -41,6 +42,12 @@
             <artifactId>spring-test</artifactId>
             <version>5.3.10</version>
             <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.3.5</version>
         </dependency>
 
     </dependencies>
